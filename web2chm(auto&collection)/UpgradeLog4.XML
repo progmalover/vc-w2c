@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="web2chm">
+</Property><Property Name="Solution File" Value="E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\web2chm.sln">
+</Property><Property Name="Date" Value="2012年10月28日">
+</Property><Property Name="Time" Value="21:47:36">
+</Property><Property Name="Log Number" Value="4">
+</Property></Properties><Event ErrorLevel="0" Project="web2chm" Source="web2chm.vcproj" Description="Converting project file 'E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\web2chm.vcproj'.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="VCConvertEngine could not convert attribute UseUnicodeResponseFiles = false under Tool VCCLCompilerTool.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="MSB8012: $(TargetName) ('web2chm') does not match the Linker's OutputFile property value 'E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\Release\W2EBook.exe' ('W2EBook') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="web2chm" Source="web2chm.vcproj" Description="MSB8012: $(TargetPath) ('E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\Release\web2chm.exe') does not match the Linker's OutputFile property value 'E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\Release\W2EBook.exe' ('E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\Release\W2EBook.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="web2chm" Source="web2chm.vcproj" Description="Done converting to new project file 'E:\workspacekkkk\webtochmProjects\current version\Web2Ebook\web2chm(auto&amp;collection)\web2chm.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="web2chm" Source="web2chm.vcproj" Description="Converted">
+</Event></UpgradeLog>

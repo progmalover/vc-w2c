@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E702644-DDD8-4492-9C32-4732C3DF9D66}</ProjectGuid>
+    <RootNamespace>web2chm</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\HttpApi;.\UCtrl\Include;.\UCtrl\Lib;.\FlatButton;.\;.\UCtrl\CellTypes;.\DockPane;E:\workspacekkkk\webtochmProjects\Reglib\reglib\reglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x07e9</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Wininet.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\HttpApi;.\UCtrl\Include;.\UCtrl\Lib;.\FlatButton;.\;.\UCtrl\CellTypes;.\DockPane;..\reglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Wininet.lib;Winmm.lib;reglib.lib;reglib.res;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>$(OutDir)W2EBook.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\reglib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDialog.cpp" />
+    <ClCompile Include="AddPanel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="AnchorListWnd.cpp" />
+    <ClCompile Include="AnchorPanelWnd.cpp" />
+    <ClCompile Include="AnchorsBar.cpp" />
+    <ClCompile Include="AnchorTree.cpp" />
+    <ClCompile Include="AnchorUrlsList.cpp" />
+    <ClCompile Include="AutoCompletionComboBox.cpp" />
+    <ClCompile Include="AutoCompletionComboBoxEdit.cpp" />
+    <ClCompile Include="BtnDlg.cpp" />
+    <ClCompile Include="BufferFile.cpp" />
+    <ClCompile Include="charSet.cpp" />
+    <ClCompile Include="CMYControlBar.cpp" />
+    <ClCompile Include="ComRun.cpp" />
+    <ClCompile Include="ConfigManager.cpp" />
+    <ClCompile Include="ConnectTestDlg.cpp" />
+    <ClCompile Include="ConverDlg.cpp" />
+    <ClCompile Include="CProgressList.cpp" />
+    <ClCompile Include="DefnameManager.cpp" />
+    <ClCompile Include="DlgBtn.cpp" />
+    <ClCompile Include="DlgFailureUrls.cpp" />
+    <ClCompile Include="DockBtn.cpp" />
+    <ClCompile Include="DownloadPage.cpp" />
+    <ClCompile Include="DownloadSheet.cpp" />
+    <ClCompile Include="DownTaskList.cpp" />
+    <ClCompile Include="DPlayer.cpp" />
+    <ClCompile Include="ElementProperSheet.cpp" />
+    <ClCompile Include="ElementProperty.cpp" />
+    <ClCompile Include="ExListBox.cpp" />
+    <ClCompile Include="FileTypesPage.cpp" />
+    <ClCompile Include="FinishPage.cpp" />
+    <ClCompile Include="GeneralPage.cpp" />
+    <ClCompile Include="GeneralSheet.cpp" />
+    <ClCompile Include="HistoryComboBox.cpp" />
+    <ClCompile Include="HistoryList.cpp" />
+    <ClCompile Include="HitsListCtrl.cpp" />
+    <ClCompile Include="hmCompiler.cpp" />
+    <ClCompile Include="htmleditcontrolsite.cpp" />
+    <ClCompile Include="HtmlParse.cpp" />
+    <ClCompile Include="HyperlinkStatic.cpp" />
+    <ClCompile Include="IEComCtrlSink.cpp" />
+    <ClCompile Include="JobFileReader.cpp" />
+    <ClCompile Include="LookPanel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="mfcieVw.cpp" />
+    <ClCompile Include="ModifyPage.cpp" />
+    <ClCompile Include="MRUTaskDlg.cpp" />
+    <ClCompile Include="NewDownloadPage.cpp" />
+    <ClCompile Include="NewTaskDlg.cpp" />
+    <ClCompile Include="NewTaskDlg2.cpp" />
+    <ClCompile Include="OutBar.cpp" />
+    <ClCompile Include="OwnerDrawListBox.cpp" />
+    <ClCompile Include="PadFrame.cpp" />
+    <ClCompile Include="Particular.cpp" />
+    <ClCompile Include="PrimarySheet.cpp" />
+    <ClCompile Include="ProxyPage.cpp" />
+    <ClCompile Include="ReBarEx.cpp" />
+    <ClCompile Include="RefPathCalculator.cpp" />
+    <ClCompile Include="shelllink.cpp" />
+    <ClCompile Include="ShockwaveFlash.cpp" />
+    <ClCompile Include="SimIEBar.cpp" />
+    <ClCompile Include="SimToolBar.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StaticText.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabBar.cpp" />
+    <ClCompile Include="tabdoc.cpp" />
+    <ClCompile Include="TabDocTemp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TAnchorManager.cpp" />
+    <ClCompile Include="TAnchorPage.cpp" />
+    <ClCompile Include="TAnchorPiece.cpp" />
+    <ClCompile Include="TaskDir.cpp" />
+    <ClCompile Include="TaskTree.cpp" />
+    <ClCompile Include="TCatalogBuilder.cpp" />
+    <ClCompile Include="TCompilerTask.cpp" />
+    <ClCompile Include="TCookieKeeper.cpp" />
+    <ClCompile Include="TExec.cpp" />
+    <ClCompile Include="TFileSession.cpp" />
+    <ClCompile Include="TIESinkManager.cpp" />
+    <ClCompile Include="ToolBarEx.cpp" />
+    <ClCompile Include="TParseExec.cpp" />
+    <ClCompile Include="TStore.cpp" />
+    <ClCompile Include="TStoreManager.cpp" />
+    <ClCompile Include="TWebTask.cpp" />
+    <ClCompile Include="ui.cpp" />
+    <ClCompile Include="UrlEditDlg.cpp" />
+    <ClCompile Include="W2CBar.cpp" />
+    <ClCompile Include="w2ebook_utils.cpp" />
+    <ClCompile Include="WaitDlg.cpp" />
+    <ClCompile Include="WorkModeDlg.cpp" />
+    <ClCompile Include="WorkSpace.cpp" />
+    <ClCompile Include="HttpApi\filepath.cpp" />
+    <ClCompile Include="HttpApi.cpp" />
+    <ClCompile Include="TaskSession.cpp" />
+    <ClCompile Include="HttpApi\Utils.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCBType.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCell.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCelTyp.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCnrBtn.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCTarrw.cpp" />
+    <ClCompile Include="UCtrl\Source\UGCtrl.cpp" />
+    <ClCompile Include="UCtrl\Source\UGDLType.cpp" />
+    <ClCompile Include="UCtrl\Source\UGDrgDrp.cpp" />
+    <ClCompile Include="UCtrl\Source\UGDrwHnt.cpp" />
+    <ClCompile Include="UCtrl\Source\UGDtaSrc.cpp" />
+    <ClCompile Include="UCtrl\Source\UGEdit.cpp" />
+    <ClCompile Include="UCtrl\Source\UGEditBase.cpp" />
+    <ClCompile Include="UCtrl\Source\ugformat.cpp" />
+    <ClCompile Include="UCtrl\Source\uggdinfo.cpp" />
+    <ClCompile Include="UCtrl\Source\UGGrid.cpp" />
+    <ClCompile Include="UCtrl\Source\UGHint.cpp" />
+    <ClCompile Include="UCtrl\Source\ughscrol.cpp" />
+    <ClCompile Include="UCtrl\Source\ugLstBox.cpp" />
+    <ClCompile Include="UCtrl\Source\UGMEdit.cpp" />
+    <ClCompile Include="UCtrl\Source\UGMemMan.cpp" />
+    <ClCompile Include="UCtrl\Source\UGMultiS.cpp" />
+    <ClCompile Include="UCtrl\Source\ugprint.cpp" />
+    <ClCompile Include="UCtrl\Source\ugptrlst.cpp" />
+    <ClCompile Include="UCtrl\Source\ugsidehd.cpp" />
+    <ClCompile Include="UCtrl\Source\UGStrOp.cpp" />
+    <ClCompile Include="UCtrl\Source\ugtab.cpp" />
+    <ClCompile Include="UCtrl\Source\UGTopHdg.cpp" />
+    <ClCompile Include="UCtrl\Source\ugvscrol.cpp" />
+    <ClCompile Include="UCtrl\Source\UGXPThemes.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTafnt.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTAutoSize.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTbutn.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTDropGrid.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTdtp.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\ugctelps.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTExpand.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTLabeled.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTMail.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTMailSort.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTMarquee.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTmfnt.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTNote.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\ugctnotewnd.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTOutlookHeader.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTpie.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTpro1.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTprog.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTRado.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTsarw.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTsldr.cpp" />
+    <ClCompile Include="UCtrl\CellTypes\UGCTSpin.cpp" />
+    <ClCompile Include="UCtrl\EditControls\UTEdit.cpp" />
+    <ClCompile Include="UCtrl\EditControls\UTMaskedEdit.cpp" />
+    <ClCompile Include="FlatButton\Dib.cpp" />
+    <ClCompile Include="FlatButton\FlatBitmapButton.cpp" />
+    <ClCompile Include="FlatButton\FlatButton.cpp" />
+    <ClCompile Include="FlatButton\VisualStylesXP.cpp" />
+    <ClCompile Include="Tools\ButtonXP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Tools\ComboBoxXP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Tools\Draw.cpp" />
+    <ClCompile Include="Tools\MenuXP.cpp" />
+    <ClCompile Include="Tools\StatusBarXP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Tools\ToolBarXP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Tools\Tools.cpp" />
+    <ClCompile Include="DockPane\DockPanel.cpp" />
+    <ClCompile Include="DockPane\Graphics.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="DockPane\SilibingPanelWnd.cpp" />
+    <ClCompile Include="DockPane\TabTrack.cpp" />
+    <ClCompile Include="DockPane\Tools.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="DockPane\TopTitleBarWnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HtmlParse.h" />
+    <ClInclude Include="StaticInstance.h" />
+    <ClInclude Include="AboutDialog.h" />
+    <ClInclude Include="AddPanel.h" />
+    <ClInclude Include="AnchorListWnd.h" />
+    <ClInclude Include="AnchorPanelWnd.h" />
+    <ClInclude Include="AnchorsBar.h" />
+    <ClInclude Include="AnchorTree.h" />
+    <ClInclude Include="AnchorUrlsList.h" />
+    <ClInclude Include="AutoCompletionComboBox.h" />
+    <ClInclude Include="AutoCompletionComboBoxEdit.h" />
+    <ClInclude Include="BtnDlg.h" />
+    <ClInclude Include="BufferFile.h" />
+    <ClInclude Include="charset.h" />
+    <ClInclude Include="CMYControlBar.h" />
+    <ClInclude Include="ComRun.h" />
+    <ClInclude Include="ConnectTestDlg.h" />
+    <ClInclude Include="ConverDlg.h" />
+    <ClInclude Include="CProgressList.h" />
+    <ClInclude Include="DefnameManager.h" />
+    <ClInclude Include="Defs.h" />
+    <ClInclude Include="DlgBtn.h" />
+    <ClInclude Include="DlgFailureUrls.h" />
+    <ClInclude Include="DockBtn.h" />
+    <ClInclude Include="DownloadPage.h" />
+    <ClInclude Include="DownloadSheet.h" />
+    <ClInclude Include="DownTaskList.h" />
+    <ClInclude Include="DPlayer.h" />
+    <ClInclude Include="ElementProperSheet.h" />
+    <ClInclude Include="ElementProperty.h" />
+    <ClInclude Include="ExListBox.h" />
+    <ClInclude Include="FileTypesPage.h" />
+    <ClInclude Include="FinishPage.h" />
+    <ClInclude Include="GeneralPage.h" />
+    <ClInclude Include="GeneralSheet.h" />
+    <ClInclude Include="HistoryComboBox.h" />
+    <ClInclude Include="HistoryList.h" />
+    <ClInclude Include="HitsListCtrl.h" />
+    <ClInclude Include="hmCompiler.h" />
+    <ClInclude Include="HTMLEditControlSite.h" />
+    <ClInclude Include="HyperlinkStatic.h" />
+    <ClInclude Include="IEComCtrlSink.h" />
+    <ClInclude Include="JobFileReader.h" />
+    <ClInclude Include="LookPanel.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MemDC.h" />
+    <CustomBuildStep Include="mfcieVw.h" />
+    <ClInclude Include="ModifyPage.h" />
+    <ClInclude Include="MRUTaskDlg.h" />
+    <ClInclude Include="NewDownloadPage.h" />
+    <ClInclude Include="NewTaskDlg.h" />
+    <ClInclude Include="NewTaskDlg2.h" />
+    <ClInclude Include="OutBar.h" />
+    <ClInclude Include="OwnerDrawListBox.h" />
+    <ClInclude Include="PadFrame.h" />
+    <ClInclude Include="Particular.h" />
+    <ClInclude Include="PrimarySheet.h" />
+    <ClInclude Include="ProxyPage.h" />
+    <ClInclude Include="ReBarEx.h" />
+    <ClInclude Include="RefPathCalculator.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="shelllink.h" />
+    <ClInclude Include="ShockwaveFlash.h" />
+    <ClInclude Include="SimIEBar.h" />
+    <ClInclude Include="SimToolBar.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StaticText.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TabBar.h" />
+    <ClInclude Include="tabdoc.h" />
+    <ClInclude Include="TabDocTemp.h" />
+    <ClInclude Include="TAnchorManager.h" />
+    <ClInclude Include="TAnchorPage.h" />
+    <ClInclude Include="TAnchorPiece.h" />
+    <ClInclude Include="TaskDir.h" />
+    <ClInclude Include="TaskTree.h" />
+    <ClInclude Include="TCatalogBuilder.h" />
+    <ClInclude Include="TCompilerTask.h" />
+    <ClInclude Include="TCookieKeeper.h" />
+    <ClInclude Include="TExec.h" />
+    <ClInclude Include="TFileSession.h" />
+    <ClInclude Include="TIESinkManager.h" />
+    <ClInclude Include="ToolBarEx.h" />
+    <ClInclude Include="TParseExec.h" />
+    <ClInclude Include="TStore.h" />
+    <ClInclude Include="TStoreManager.h" />
+    <ClInclude Include="TWebTask.h" />
+    <ClInclude Include="ui.h" />
+    <ClInclude Include="UrlEditDlg.h" />
+    <ClInclude Include="W2CBar.h" />
+    <ClInclude Include="w2ebook_utils.h" />
+    <ClInclude Include="WaitDlg.h" />
+    <ClInclude Include="WorkModeDlg.h" />
+    <ClInclude Include="WorkSpace.h" />
+    <ClInclude Include="ConfigManager.h" />
+    <ClInclude Include="HttpApi\filepath.h" />
+    <ClInclude Include="HttpApi\HttpApi.h" />
+    <ClInclude Include="HttpApi\Utils.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTafnt.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTAutoSize.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTbutn.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTDropGrid.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTdtp.h" />
+    <ClInclude Include="UCtrl\CellTypes\ugctelps.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTExpand.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTLabeled.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTMail.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTMailSort.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTMarquee.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTmfnt.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTNote.h" />
+    <ClInclude Include="UCtrl\CellTypes\ugctnotewnd.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTOutlookHeader.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTpie.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTpro1.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTprog.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTRado.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTsarw.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTsldr.h" />
+    <ClInclude Include="UCtrl\CellTypes\UGCTSpin.h" />
+    <ClInclude Include="UCtrl\EditControls\UTEdit.h" />
+    <ClInclude Include="UCtrl\Lib\Uglibsel.h" />
+    <ClInclude Include="UCtrl\Include\UG64Bit.h" />
+    <ClInclude Include="UCtrl\Include\UGCBType.h" />
+    <ClInclude Include="UCtrl\Include\UGCell.h" />
+    <ClInclude Include="UCtrl\Include\ugceltyp.h" />
+    <ClInclude Include="UCtrl\Include\UGCnrBtn.h" />
+    <ClInclude Include="UCtrl\Include\UGCTarrw.h" />
+    <ClInclude Include="UCtrl\Include\UGCtrl.h" />
+    <ClInclude Include="UCtrl\Include\ugdefine.h" />
+    <ClInclude Include="UCtrl\Include\UGDLType.h" />
+    <ClInclude Include="UCtrl\Include\UGDrgDrp.h" />
+    <ClInclude Include="UCtrl\Include\UGDrwHnt.h" />
+    <ClInclude Include="UCtrl\Include\UGDtaSrc.h" />
+    <ClInclude Include="UCtrl\Include\UGEdit.h" />
+    <ClInclude Include="UCtrl\Include\UGEditBase.h" />
+    <ClInclude Include="UCtrl\Include\ugformat.h" />
+    <ClInclude Include="UCtrl\Include\uggdinfo.h" />
+    <ClInclude Include="UCtrl\Include\UGGrid.h" />
+    <ClInclude Include="UCtrl\Include\UGHint.h" />
+    <ClInclude Include="UCtrl\Include\ughscrol.h" />
+    <ClInclude Include="UCtrl\Include\uglstbox.h" />
+    <ClInclude Include="UCtrl\Include\UGMEdit.h" />
+    <ClInclude Include="UCtrl\Include\UGMemMan.h" />
+    <ClInclude Include="UCtrl\Include\UGMultiS.h" />
+    <ClInclude Include="UCtrl\Include\ugprint.h" />
+    <ClInclude Include="UCtrl\Include\ugptrlst.h" />
+    <ClInclude Include="UCtrl\Include\ugsidehd.h" />
+    <ClInclude Include="UCtrl\Include\UGStrOp.h" />
+    <ClInclude Include="UCtrl\Include\ugstruct.h" />
+    <ClInclude Include="UCtrl\Include\ugtab.h" />
+    <ClInclude Include="UCtrl\Include\UGTopHdg.h" />
+    <ClInclude Include="UCtrl\Include\ugvscrol.h" />
+    <ClInclude Include="UCtrl\Include\ugxpthemes.h" />
+    <ClInclude Include="FlatButton\Dib.h" />
+    <CustomBuildStep Include="FlatButton\FlatBitmapButton.h" />
+    <CustomBuildStep Include="FlatButton\FlatButton.h" />
+    <ClInclude Include="FlatButton\VisualStylesXP.h" />
+    <CustomBuildStep Include="Tools\ButtonXP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\ComboBoxXP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="Tools\Draw.h" />
+    <ClInclude Include="Tools\MenuXP.h" />
+    <CustomBuildStep Include="Tools\StatusBarXP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\ToolbarXP.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+    <ClInclude Include="Tools\Tools.h" />
+    <ClInclude Include="DockPane\DockPanel.h" />
+    <ClInclude Include="DockPane\Graphics.h" />
+    <ClInclude Include="DockPane\SilibingPanelWnd.h" />
+    <ClInclude Include="DockPane\TabTrack.h" />
+    <ClInclude Include="DockPane\Tools.h" />
+    <ClInclude Include="DockPane\TopTitleBarWnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="tabdoc.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tabdocDoc.ico" />
+    <None Include="res\001_Pause.bmp" />
+    <None Include="res\001_Start.bmp" />
+    <None Include="res\001_Stop.bmp" />
+    <None Include="res\003_Pause.bmp" />
+    <None Include="res\003_Start.bmp" />
+    <None Include="res\003_Stop.bmp" />
+    <None Include="res\bar_left.bmp" />
+    <None Include="res\bar_left_sel.bmp" />
+    <None Include="res\bar_right.bmp" />
+    <None Include="res\bar_right_sel.bmp" />
+    <None Include="res\bar_tile.bmp" />
+    <None Include="res\bar_tile_sel.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\coldtool.bmp" />
+    <None Include="res\Copy of Setup.bmp" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\delitem.ico" />
+    <None Include="res\dot.bmp" />
+    <None Include="res\EMB-C1A.gif" />
+    <None Include="res\hottoolb.bmp" />
+    <None Include="res\imagelist.bmp" />
+    <None Include="res\Logo.bmp" />
+    <None Include="res\METALC5B.gif" />
+    <None Include="res\resouce_mgr_tree_imagelist.bmp" />
+    <None Include="res\tabdoc.rc2" />
+    <None Include="res\tb_Cold2.bmp" />
+    <None Include="res\tb_hot2.bmp" />
+    <None Include="res\w2chm.ico" />
+    <None Include="res\EMB-C2A.png" />
+    <None Include="MRUTaskDlg.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="res\Toolbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tabdoc.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="tabdoc.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

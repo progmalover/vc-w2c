@@ -1,0 +1,1052 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_WC_RIBBON           RT_RIBBON_XML           "res\\ribbon1.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_IEBAR DIALOGEX 0, 0, 394, 21
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_URL_COMBO,96,3,293,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_IEBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 18
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SUPER_DIALOG DIALOGEX 0, 0, 251, 59
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Please  Input Super Key !"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,132,38,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,190,38,50,14
+    EDITTEXT        IDC_EDIT1,7,18,239,14,ES_AUTOHSCROLL
+END
+
+IDD_CONVER_DLG DIALOGEX 0, 0, 281, 128
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Converting  Sources to CHM..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,3,2,277,125,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 264, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,3,5,20,20
+    LTEXT           "Web2EBook  version 2.3",IDC_STATIC,38,8,119,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "Ok",IDOK,205,5,50,13,WS_GROUP
+    LTEXT           "Copyright (C) 2007-2008",IDC_STATIC,38,23,119,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,44,250,52
+    LTEXT           "Support:",IDC_STATIC,34,51,40,8
+    LTEXT           "sttatic",IDC_STATIC_SPPORT,80,51,110,11
+    LTEXT           "Website:",IDC_STATIC,34,68,40,8
+    LTEXT           "static",IDC_STATIC_WEBSITE,80,68,110,11
+    LTEXT           "Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.",IDC_STATIC,6,97,257,26
+END
+
+IDD_NEWTASK_AUTO DIALOGEX 0, 0, 290, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Download(Auto Mode)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "URL:",IDC_STATIC,14,10,36,8
+    PUSHBUTTON      "&Test",IDC_CONNCTTEST,232,9,42,14
+    LTEXT           "Save to:",IDC_STATIC,14,33,36,8
+    PUSHBUTTON      "...",IDC_EXPLORE,232,32,42,14
+    PUSHBUTTON      "&Ok",IDC_TASKSTART,167,54,42,14
+    PUSHBUTTON      "&Options",IDC_TASKCONF,101,54,42,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,232,54,42,14
+    CONTROL         "",IDC_TESTPROGRESS,"msctls_progress32",WS_BORDER,0,71,289,11
+    COMBOBOX        IDC_COMBO_URL,52,9,174,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LOCATIONEDIT,52,32,174,12,ES_AUTOHSCROLL | ES_NOHIDESEL
+END
+
+IDD_OPTION_SYS DIALOGEX 0, 0, 270, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Gerenal"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "Max thread number:",IDC_TRDNUMBER,17,22,90,8
+    COMBOBOX        IDC_COMBOTRDNUMBER,115,20,50,95,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Connection timeout:",IDC_MAXWAIT,17,39,90,8
+    COMBOBOX        IDC_COMBOWAITTIME,115,37,50,94,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "MSEL",IDC_STATIC,169,39,50,8
+    LTEXT           "Retry times:",IDC_CONNECTTRY,17,56,90,8
+    COMBOBOX        IDC_COMBOCONNECTTRY,115,54,50,77,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Output format (Collection mode )",IDC_STATIC,6,84,257,45,BS_LEFT
+    CONTROL         "Convert to chm",IDC_DOWNWEB2CHM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,98,148,10
+    CONTROL         "Convert to text",IDC_DOWNWEB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,113,148,10
+    LTEXT           "Max download history:",IDC_MRUTASK,6,136,97,11
+    EDITTEXT        IDC_MRUNUMEDIT,115,136,50,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_MRUNUM,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,136,11,14
+    CONTROL         "Shut down the computer after download",IDC_CHECK_SHUTDOWN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,154,214,10
+    GROUPBOX        "Web connect",IDC_STATIC,6,3,257,74
+    CONTROL         "New download with wizard (Recommend)",IDC_CHECK_WARZARD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,168,182,10
+    CONTROL         "Query before close wizard",IDC_CHECK_ASK_BEFORE,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,21,182,148,10
+END
+
+IDD_RECENTTASK DIALOGEX 0, 0, 304, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Recent Download"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TASKLIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,290,143
+    PUSHBUTTON      "&Delete",IDC_BUTTON1,91,157,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&Ok",IDOK,247,157,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,169,157,50,14,NOT WS_VISIBLE
+END
+
+IDD_OPTION_DOWNLOAD DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "Download"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Download mode",IDC_STATIC,7,7,257,105
+    CONTROL         "All URL in  html page",IDC_DOWNLOADPAGES,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,15,169,10,WS_EX_TRANSPARENT
+    CONTROL         "All the relation pages in web host",IDC_DOWNLOADWEBHOST2,
+                    "Button",BS_AUTORADIOBUTTON,21,54,169,10,WS_EX_TRANSPARENT
+    CONTROL         "All the relation pages in web site",IDC_DOWNLOADWEBSIT2,
+                    "Button",BS_AUTORADIOBUTTON,21,68,169,10,WS_EX_TRANSPARENT
+    CONTROL         "A word or phrase in URL ",IDC_INCLUDE_STRING,"Button",BS_AUTORADIOBUTTON,21,82,169,10,WS_EX_TRANSPARENT
+    LTEXT           "Download depth:",IDC_STATIC_DEEP,36,27,66,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT_DEEP,102,25,42,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_DEEP,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_NOTHOUSANDS,145,25,10,13
+    CONTROL         "Manually auditing",IDC_CHECK_EDIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,36,39,132,12,WS_EX_TRANSPARENT
+    GROUPBOX        "Download  limit",IDC_STATIC,6,116,257,57,0,WS_EX_TRANSPARENT
+    LTEXT           "Max total size:",IDC_STATIC_TOTAL_SIZE,21,127,72,8,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_MAX_TOTLE_SIZE,96,124,42,53,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "MB",IDC_STATIC,142,126,13,9
+    LTEXT           "Max file size:",IDC_STATIC_FILE_SIZE,21,142,72,8,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_MAX_FILE_SIZE,96,138,42,56,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "MB",IDC_STATIC,142,140,13,9
+    LTEXT           "Max files:",IDC_STATIC_MAX_FILES,21,156,72,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_MAX_FILE_NUMBER,96,153,42,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Enable limit",IDC_LIMIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,176,114,10,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_PATH_STRING_PART,36,94,202,12,ES_AUTOHSCROLL
+END
+
+IDD_OPTION_PROXY DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "Proxy Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Proxy",IDC_STATIC,6,3,257,78
+    LTEXT           "Server:",IDC_STATIC_S,24,16,38,8
+    EDITTEXT        IDC_SERVER_NAME,74,16,113,14,ES_AUTOHSCROLL
+    LTEXT           "User:",IDC_STATIC_U,24,37,38,8
+    EDITTEXT        IDC_USER_NAME,74,37,113,14,ES_AUTOHSCROLL
+    LTEXT           "Password:",IDC_STATIC_P,24,58,38,8
+    EDITTEXT        IDC_PASSWORD,74,58,113,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Use Proxy",IDC_USE_PROXY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,93,64,10
+END
+
+IDD_CONNECTTESTDLG DIALOGEX 0, 0, 236, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connection Success"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_INFDISP,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_DISABLED | WS_TABSTOP,7,7,222,103,WS_EX_TRANSPARENT
+    PUSHBUTTON      "&Ok",IDOK,179,113,50,14
+END
+
+IDD_DIALOG_PAD DIALOGEX 0, 0, 92, 17
+STYLE DS_SYSMODAL | DS_SETFONT | DS_NOIDLEMSG | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_TRANSPARENT | WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Button1",IDC_BUTTON_START,"Button",BS_OWNERDRAW | WS_TABSTOP,1,1,16,13
+    CONTROL         "Button1",IDC_BUTTON_STOP,"Button",BS_OWNERDRAW | WS_TABSTOP,17,1,16,13
+    CONTROL         "Button1",IDC_BUTTON_KILL,"Button",BS_OWNERDRAW | WS_TABSTOP,33,1,16,13
+END
+
+IDD_URL_EDIT_DLG DIALOGEX 0, 0, 374, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Pages"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST2,7,8,360,204,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "&Cancel Manually auditing",IDC_AUDIT_CANCEL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,215,120,10
+    PUSHBUTTON      "&Delete",IDC_URL_DELETE,7,228,50,14
+    PUSHBUTTON      "Delete &All",IDC_URL_DELETE_ALL,68,228,50,14
+    PUSHBUTTON      "&Select All",IDC_URL_SELECT_ALL,129,228,50,14
+    PUSHBUTTON      "&Undo Select",IDC_UNDO_SELECT,190,228,50,14
+    PUSHBUTTON      "&Ok",IDC_URL_EXIT,251,228,50,14
+END
+
+IDD_OPTION_MODIFY DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+CAPTION "Page Modify"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Clear html page tags",IDC_STATIC,6,3,257,157
+    CONTROL         "Clear ""script"" tag",IDC_CHECK_SCRIPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,15,162,10
+    CONTROL         "Clear ""noscript"" tag",IDC_CHECK_NOSCRIPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,29,162,10
+    CONTROL         "Clear ""onload"" tag",IDC_CHECK_LOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,43,162,10
+    CONTROL         "Clear ""onunload"" tag",IDC_CHECK_UNLOAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,57,162,10
+    CONTROL         "Clear ""onclick"" event tag",IDC_CHECK_MOUSEEVENT_CLICK,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,71,162,10
+    CONTROL         "Clear ""onmouseleave"" event tag",IDC_CHECK_MOUSEEVENT_LEAVE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,85,162,10
+    CONTROL         "Clear ""onmouseenter"" event tag",IDC_CHECK_MOUSEEVENT_ENTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,99,162,10
+    CONTROL         "Clear ""onmouseover"" event tag",IDC_CHECK_MOUSEEVENT_OVER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,113,162,10
+    CONTROL         "Clear ""onmouseout"" event tag",IDC_CHECK_MOUSEEVENT_OUT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,127,162,10
+    CONTROL         "Clear ""onmousedown"" event tag",IDC_CHECK_MOUSEEVENT_DOWN,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,19,141,162,10
+    CONTROL         "Default",IDC_CHECK_USEDEFAULT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,178,217,10
+END
+
+IDD_DLG_WORKMODE DIALOGEX 0, 0, 200, 27
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_WORK_MODE_COMBO,62,7,118,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Download mode:",IDC_WORKMODE_CAP,6,10,55,8
+    GROUPBOX        "",IDC_STATIC,2,0,180,22
+END
+
+IDD_NEWTASK_ANCHOR DIALOGEX 0, 0, 290, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Download(Collection Mode)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "&Save to:",IDC_STATIC,18,35,28,8
+    PUSHBUTTON      "...",IDC_EXPLORE,234,33,42,14
+    PUSHBUTTON      "&Ok",IDC_TASKSTART2,167,61,42,14
+    PUSHBUTTON      "&Options",IDC_TASKCONF2,100,61,42,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,234,60,42,14
+    LTEXT           "State",IDC_STATIC_STATE,19,8,210,15
+    PUSHBUTTON      "&Help",IDC_BUTTON_ANCHOR_HELP,234,10,42,14
+    EDITTEXT        IDC_LOCATIONEDIT2,57,34,174,12,ES_AUTOHSCROLL | ES_NOHIDESEL,WS_EX_RIGHT
+END
+
+IDD_DLG_WAITING DIALOGEX 0, 0, 235, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Waiting for choice"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,117,87,50,16
+    PUSHBUTTON      "Cancel",IDCANCEL,178,87,50,16
+    EDITTEXT        IDC_WAITMSG,7,7,221,58,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,7,71,221,11
+    LTEXT           "Static",IDC_TIMEREMAIN,10,88,77,8
+END
+
+IDD_PROPPAGE_NEWDOWND DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "New Download"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "Work mode:",IDC_STATIC,9,11,45,12
+    COMBOBOX        IDC_COMBO_WORKMODE,63,9,155,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Help",IDC_BUTTON_HELP,221,9,37,14
+    LTEXT           "URL:",IDC_STATIC_URL,21,131,36,12
+    PUSHBUTTON      "&Test",IDC_CONNCTTEST,221,131,37,14
+    LTEXT           "Save to:",IDC_STATIC_SAVETO,21,154,36,8
+    PUSHBUTTON      "...",IDC_EXPLORE,221,154,37,14
+    CONTROL         "",IDC_TESTPROGRESS,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,8,173,256,11
+    LTEXT           "How to use work mode",IDC_STATIC_INFO,9,32,250,17
+    COMBOBOX        IDC_COMBO_URL,63,131,155,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_URL,7,50,258,62,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LOCATIONEDIT,63,154,155,12,ES_AUTOHSCROLL | ES_NOHIDESEL
+    GROUPBOX        "Project",IDC_PLACEHOLDER,7,116,258,69
+END
+
+IDD_PROPPAGE_FINISH DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Finish"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+END
+
+IDD_DIALOG_PLAYER DIALOGEX 0, 0, 320, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Web2EBook Tutorial"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PLAYER,"{D27CDB6E-AE6D-11CF-96B8-444553540000}",WS_TABSTOP,0,0,319,237
+END
+
+IDD_PROPPAGE_ELEMENT_PROPERTY DIALOGEX 0, 0, 279, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Element"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Tag Name:",IDC_STATIC1,6,7,36,8
+    LTEXT           "",IDC_TAG_TYPE,44,7,138,8
+    LTEXT           "Raw Data:",IDC_RAW_DATA,6,29,36,8
+    LTEXT           "Rectangle:",IDC_STATIC,6,17,36,8
+    LTEXT           "",IDC_RECTANGLE,44,17,214,8
+    EDITTEXT        IDC_RAW_DATA_LIST,7,41,265,150,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+END
+
+IDD_DOWNLOAD_FAILURE DIALOGEX 0, 0, 432, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Download Failured!"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Retry",ID_RETRY,306,229,50,14
+    PUSHBUTTON      "Abandon",ID_ABOND,369,229,50,14
+    LISTBOX         IDC_URL_LIST,7,8,418,218,LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Delete",IDC_DEL_URLS,240,229,50,14,WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SUPER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_CONVER_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+    END
+
+    IDD_NEWTASK_AUTO, DIALOG
+    BEGIN
+    END
+
+    IDD_OPTION_SYS, DIALOG
+    BEGIN
+    END
+
+    IDD_RECENTTASK, DIALOG
+    BEGIN
+    END
+
+    IDD_OPTION_PROXY, DIALOG
+    BEGIN
+    END
+
+    IDD_CONNECTTESTDLG, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG_PAD, DIALOG
+    BEGIN
+    END
+
+    IDD_URL_EDIT_DLG, DIALOG
+    BEGIN
+    END
+
+    IDD_OPTION_MODIFY, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_WORKMODE, DIALOG
+    BEGIN
+    END
+
+    IDD_NEWTASK_ANCHOR, DIALOG
+    BEGIN
+    END
+
+    IDD_DLG_WAITING, DIALOG
+    BEGIN
+    END
+
+    IDD_PROPPAGE_NEWDOWND, DIALOG
+    BEGIN
+    END
+
+    IDD_PROPPAGE_FINISH, DIALOG
+    BEGIN
+    END
+
+    IDD_PROPPAGE_ELEMENT_PROPERTY, DIALOG
+    BEGIN
+    END
+
+    IDD_DOWNLOAD_FAILURE, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\tabdoc.rc2""  // ? Microsoft Visual C++ ????\r\n"
+    "#include ""afxres.rc""         // ????\r\n"
+    "#include ""afxprint.rc""       // ??/??????\r\n"
+    "#include ""afxolecl.rc""       // OLE container resources\r\n"
+    "#ifndef _AFXDLL\r\n"
+    "#include ""afxribbon.rc""      // MFC ribbon resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\tb_hot2.bmp"
+IDB_PAUSE               BITMAP                  "res\\003_Pause.bmp"
+IDB_START               BITMAP                  "res\\003_Start.bmp"
+IDB_STOP                BITMAP                  "res\\003_Stop.bmp"
+IDB_PAUSEDOWN           BITMAP                  "res\\001_Pause.bmp"
+IDB_STARTDOWN           BITMAP                  "res\\001_Start.bmp"
+IDB_STOPDOWN            BITMAP                  "res\\001_Stop.bmp"
+IDB_TASK_LIST_IMAGE     BITMAP                  "res\\resouce_mgr_tree_imagelist.bmp"
+IDB_HOT_BAR             BITMAP                  "res\\bitmap2.bmp"
+IDB_SPLASH              BITMAP                  "res\\Copy of Setup.bmp"
+IDB_COLD_BAR            BITMAP                  "res\\tb_Cold2.bmp"
+IDB_PANEL_BAR_4         BITMAP                  "res\\bar_tile.bmp"
+IDB_PANEL_BAR_2         BITMAP                  "res\\bar_right_sel.bmp"
+IDB_PANEL_BAR_3         BITMAP                  "res\\bar_left.bmp"
+IDB_PANEL_BAR_1         BITMAP                  "res\\bar_tile_sel.bmp"
+IDB_PANEL_BAR_0         BITMAP                  "res\\bar_left_sel.bmp"
+IDB_PANEL_BAR_5         BITMAP                  "res\\bar_right.bmp"
+IDB_LOGO                BITMAP                  "res\\Logo.bmp"
+IDB_BITMAP_DOT          BITMAP                  "res\\dot.bmp"
+IDB_COLDTOOLBAR         BITMAP                  "res\\coldtool.bmp"
+IDB_HOTTOOLBAR          BITMAP                  "res\\hottoolb.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_MRU_FILELIST
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&Start"
+    BEGIN
+        MENUITEM "&New Download\tCtrl+N",       ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Recent Download\tCtrl+R",    ID_FILE_MRU_FILELIST, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&General Options",            ID_CONFIG_SYSCONFIG
+        MENUITEM SEPARATOR
+        MENUITEM "&Download Options",           ID_CONFIG_TASKCONFIG
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics...",             ID_HELP_TOPICS
+        MENUITEM "&Tutorial...",                ID_TUTORIAL
+        MENUITEM SEPARATOR
+        MENUITEM "&Register...",                ID_REGISTER
+        MENUITEM SEPARATOR
+        MENUITEM "Check for &Updates",          ID_HELP_CHECKFORUPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "&About...",                   ID_APP_ABOUT
+    END
+END
+
+IDR_TASK_POPMENU MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Pause  Download",             ID__PAUSEJOB
+        MENUITEM "Resume Download",             ID__RESUMEJOB
+        MENUITEM "Stop   Download",             ID__ABANDONJOB
+    END
+END
+
+IDR_OPEN_LOAD_TASK MENU
+BEGIN
+    POPUP "history menu"
+    BEGIN
+        MENUITEM "Open Directory",              ID_OPENDIRECTORY
+        MENUITEM SEPARATOR
+        MENUITEM "Load  Mission",               ID_LOADMISSION
+    END
+END
+
+IDR_FAVORITES_POPUP MENU
+BEGIN
+    MENUITEM "Bogus",                       ID_BOGUS
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "R",            ID_FILE_MRU_FILELIST,   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_LEFT,        ID_GO_BACK,             VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       ID_GO_FORWARD,          VIRTKEY, ALT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F5,          ID_VIEW_REFRESH,        VIRTKEY, NOINVERT
+    VK_ESCAPE,      ID_VIEW_STOP,           VIRTKEY, NOINVERT
+    VK_DELETE,      IDM_CUT,                VIRTKEY, NOINVERT
+    VK_F10,         ID_SUPER_KEY,           VIRTKEY, SHIFT, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,3,0,1
+ PRODUCTVERSION 2,3,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x9L
+#else
+ FILEFLAGS 0x8L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "04090000"
+        BEGIN
+            VALUE "CompanyName", "Ten-dollarsoft"
+            VALUE "FileDescription", "Ten-dollarsoft Web2EBook"
+            VALUE "FileVersion", "2.3.0.1"
+            VALUE "InternalName", "Web2EBook"
+            VALUE "LegalCopyright", "Ten-dollarsoft  All Right Reserved"
+            VALUE "OriginalFilename", "Web2EBook.exe"
+            VALUE "PrivateBuild", "101221"
+            VALUE "ProductName", "Web2EBook"
+            VALUE "ProductVersion", "2.3.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_MRUTASKDLG     HTML                    "MRUTaskDlg.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\w2chm.ico"
+IDI_IDELETITEM          ICON                    "res\\delitem.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_POINT          CURSOR                  "res\\cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_PNGBTN              PNG                     "res\\EMB-C2A.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_GIF1                GIF                     "res\\METALC5B.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_PLAYER DLGINIT
+BEGIN
+    IDC_PLAYER, 0x376, 232, 0
+0x0000, 0x0000, 0x5567, 0x5566, 0x0710, 0x0000, 0x3182, 0x0000, 0x27ca, 
+0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0000, 0x0008, 0x000e, 0x0000, 0x0057, 0x0069, 0x006e, 0x0064, 
+0x006f, 0x0077, 0x0000, 0x000b, 0xffff, 0x000b, 0xffff, 0x0008, 0x000a, 
+0x0000, 0x0048, 0x0069, 0x0067, 0x0068, 0x0000, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x000b, 0xffff, 0x0008, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 
+0x0000, 0x0008, 0x0010, 0x0000, 0x0053, 0x0068, 0x006f, 0x0077, 0x0041, 
+0x006c, 0x006c, 0x0000, 0x000b, 0x0000, 0x000b, 0x0000, 0x0008, 0x0002, 
+0x0000, 0x0000, 0x0008, 0x0000, 0x0000, 0x0008, 0x0002, 0x0000, 0x0000, 
+0x000d, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x000b, 0x0001, 0x000b, 0x0000, 0x0008, 0x0000, 0x0000, 0x0003, 0x0000, 
+0x0000, 0x0008, 0x0008, 0x0000, 0x0061, 0x006c, 0x006c, 0x0000, 0x0008, 
+0x000c, 0x0000, 0x0066, 0x0061, 0x006c, 0x0073, 0x0065, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "Web2EBook"
+    IDR_tabdocTYPE          "Show Or Hide Project Bar"
+    IDS_E_CREATE_DIRECTORY1 "Failed to create directory:\r\n%s"
+    IDS_URL_OPEN_FAILURE    "Open URL failure,maybe it is invalid."
+    IDS_INET_INIT_FAILURE   "Internet environment initializtion has failed,maybe you need to check internet configaration in your system, or check whether your computer correctly link internet."
+    IDS_BUFF_FILE_FAILURE   "Create buffer file failed, Maybe there is  notenough space on you system disk  ,Or you are not allowed to write disk."
+    IDS_CHECKED_ALL         "Set All the Items Checked"
+    IDS_ANCHOR_COUNT        "There are %d URL will download(ignore duplicate URL)."
+    IDS_E_NO_ANCHOR         "There is no web source collected, please collect image, text ,URL  or other web source from webbrowser embeded in application."
+    IDS_E_SELECT_DIRECTORY  "Please select directory to save task file!"
+    IDS_E_URL               "Please input valid URL!"
+    IDS_E_JOB_EXIST         "Job /""%s/"" is exist, do you want to overwrite it?"
+    IDS_MAX_SIZE            "1;10;100;1000;4000;"
+    IDS_MAX_FILESIZE        "1;2;5;10;15;100;"
+    IDS_AUTO_MODE_USE       "This model can automatically download the entire site, or part of the web site, and there are three ways you can download to choose the next step."
+    IDS_CUT_ALL_CHECKED     "Cut All the Checked Items"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "Web2EBook"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "New Download Task\nNew Task"
+    ID_FILE_CLOSE           "Close  Active Document \nClose"
+    ID_FILE_SAVE            "Save Active Document"
+    ID_FILE_SAVE_AS         "Use New Name To Save Active Document \n Save As"
+    ID_FILE_PAGE_SETUP      "Modify Print Option\n Page Setup"
+    ID_FILE_PRINT_SETUP     "Modify Printer Option\n Print setup"
+    ID_FILE_PRINT           "Print Active Document\n Print"
+    ID_FILE_PRINT_PREVIEW   "Show the whole page \n  Print Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Show Procedure Infomation,Version number and licence\n About"
+    ID_APP_EXIT             "Exit Application\n Exit"
+    ID_HELP                 "Help\nHelp"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open The Document"
+    ID_FILE_MRU_FILE9       "Open The Document "
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "To The Next Window\n Next Window"
+    ID_PREV_PANE            "To The Previous Window\n Previous Window"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Active Window Split Multi_windows\n Split"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Clear Selected Content\n Clear"
+    ID_EDIT_CLEAR_ALL       "Clear All Content \n Clear All Content"
+    ID_EDIT_COPY            "Copy Selected Content And Put On The Clipboard\n Copy"
+    ID_EDIT_CUT             "Cut Selected Content Then Put On The Clipboard\n Cut"
+    ID_EDIT_FIND            "Lookup The Appointed Text\n Lookup"
+    ID_EDIT_PASTE           "Insert Clipboard's Content\n Plaste"
+    ID_EDIT_REPEAT          "Repeat Previous  Operation\n Repeat"
+    ID_EDIT_REPLACE         "Other Text Replace Special Text\n Replace"
+    ID_EDIT_SELECT_ALL      "Select The Whole Document\n Select ALl"
+    ID_EDIT_UNDO            "Undo The Previous Operation\n Undo"
+    ID_EDIT_REDO            "Restore The Previous Operation\n Redo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show Or Hide Toolbar\n Switch Toolbar"
+    ID_VIEW_STATUS_BAR      "Show Or Hide  Toolbar\n Switch Toolbar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change Window Size"
+    AFX_IDS_SCMOVE          "Change Window Position"
+    AFX_IDS_SCMINIMIZE      "Window Zoom into Icon"
+    AFX_IDS_SCMAXIMIZE      "Show Maximal Window"
+    AFX_IDS_SCNEXTWINDOW    "Switch To Next Document Window"
+    AFX_IDS_SCPREVWINDOW    "Switch To Previous Document Window"
+    AFX_IDS_SCCLOSE         "Close Active Window Then Notify To Save Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Window Restore Normal Size"
+    AFX_IDS_SCTASKLIST      "Activate Task_list"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close And Print Preview Pattern \n Cancel Preview"
+    IDS_PROMPT_CREATE_DIRECTORY1 
+                            "Directory """"%s"""" does not exist. Would you like to create it now?"
+    IDS_LOAD_JOB_COMPLETE   "This job has finished."
+END
+
+STRINGTABLE
+BEGIN
+    IDD_ADDFORM             "Append Column"
+    IDD_LOOKFORM            "Lookup Column "
+    IDS_LOAD_FAILURED       "Load failure,Job file is crush,or not exist ."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STRING1087          "Open The Document"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LIMIT_ERROR         "Limit Error!"
+    IDS_RESET_ALL_CHECKED   "Reset All the Checked Items"
+    IDS_HOMEPAGE            "www.ten-dollarsoft.com/web2ebook/index.htm"
+    IDS_SUPPORT_SHOW        "progmalover@yahoo.com"
+    IDS_QUITWARN            "Are you sure to cancel now?"
+    IDS_SUPPORT_MAIL        "mailto:progmalover@yahoo.com"
+    IDS_COLLECTION_MODE     "Download Selection"
+    IDS_AUTO_MODE           "Download Web Station"
+    IDS_ENTER_VALID_FILE_NAME "Please enter a valid file path and name."
+    IDS_QUERY_DOWNLOD       "Session is working....\nAre you sure to cancel download ?"
+    IDS_ELEMENT_CAP         "Element Property"
+    IDS_MAXWAITTIME         "The max wait time to connect server "
+    IDS_CONNECTTRY          "The Fail Times To Connect"
+    IDS_TRDNUMBER           "Multi-file Number Is Allowed To Download Synchronologically In Each Task."
+END
+
+STRINGTABLE
+BEGIN
+    ID_CONFIG_SYSCONFIG     "Set General Options \nGeneral Options"
+    ID_CONFIG_TASKCONFIG    "Download Task Options\nTask Options"
+    ID_VIEW_PROPERTYPANEL   "Show Or Hide Output Bar"
+    ID_FILE_MRU_FILELIST    "Recent Download Task History\nTask History"
+    ID_VIEW_STOP            "Stop downloading the file\nStop"
+    ID_VIEW_REFRESH         "Refreshes the contents of the current page.\nRefresh"
+    ID__STOPJOB             "Pause downloading the file"
+    ID__ABANDONJOB          "Abandon downloading the file."
+    ID_VIEW_FONTS_LARGEST   "Select largest font size."
+    ID_VIEW_FONTS_LARGE     "Resume downloading the file."
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_FONTS_MEDIUM    "Pause downloading the file."
+    ID_VIEW_FONTS_SMALL     "Select small font size."
+    ID_VIEW_FONTS_SMALLEST  "Select smallest font size."
+    ID_GO_BACK              "Go back one step.\nBack"
+    ID_GO_FORWARD           "Go forward one step.\nForward"
+    ID_GO_START_PAGE        "Open Download Page.\nDownload Page"
+    ID_GO_SEARCH_THE_WEB    "Open your search page.\nSearch the Internet"
+    ID_GO_BEST_OF_THE_WEB   "Open the Best of the Web page."
+    ID_FAVORITES_DROPDOWN   "View list of your personal favorites.\nFavorites"
+    ID_FONT_DROPDOWN        "Change Font Size.\nFont Size"
+    ID_TASK_REFRESH         "Refresh Current Session\n Session Refresh"
+    ID_HELP_WEB_TUTORIAL    "Opens Web tutorial page (on the Internet)."
+    ID_HELP_CHECKFORUPDATE  "Check for &updates..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WEB_TUTORIAL        "http://www.microsoft.com/magazine/guides/internet/"
+    IDS_ONLINE_SUPPORT      "http://www.microsoft.com/iesupport/"
+    IDS_FREE_STUFF          "http://www.microsoft.com/ie/download/"
+    IDS_GET_FASTER_INTERNET_ACCESS "http://www.microsoft.com/windows/getisdn/"
+    IDS_FREQUENTLY_ASKED_QUESTIONS 
+                            "http://www.microsoft.com/iesupport/content/faq/"
+    IDS_INTERNET_START_PAGE "http://home.microsoft.com/"
+    IDS_SEND_FEEDBACK       "http://www.microsoft.com/regwiz/regwiz.asp?finishurl=/ie/"
+    IDS_BEST_OF_THE_WEB     "http://home.microsoft.com/exploring/exploring.asp"
+    IDS_SEARCH_THE_WEB      "http://home.microsoft.com/access/allinone.asp"
+    IDS_MICROSOFT_HOME_PAGE "http://www.microsoft.com/"
+    IDS_BACK                "Back"
+    IDS_FORWARD             "Forward"
+    IDS_STOP                "Stop"
+    IDS_REFRESH             "Refresh"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILETYPES           "HTML Files|*.htm;*.html|Text Files|*.txt|GIF Files|*.gif|JPEG Files|*.jpg;*.jpeg|AU Files|*.au|AIFF Files|*.aif;*.aiff|XBM Files|*.xbm|All Files|*.*||"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HOME                "Home"
+    IDS_SEARCH              "Search"
+    IDS_FAVORITES           "Favorites"
+    IDS_PRINT               "Print"
+    IDS_FONT                "zzz"
+    IDS_ADDRESS             "Address"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_HELP             "Help topic of software\nHelp"
+    IDM_CUT                 "Cut"
+    IDM_CUT_ALL             "Cut All"
+    IDM_COPY_ALL_URLS       "Catch Text And All Links"
+    IDM_COPY_SRC_URLS       "Catch Text And Image Links"
+    IDM_COPY_REF_URLS       "Catch Text And Page Links"
+    IDM_COPY_NO_URLS        "Catch Only Text"
+    IDM_ELEMENT_PROPERTY    "Element Property"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WAITFORSHUTDOWN     "Your computer will be shut down in 30 seconds. Click ""Cancel"" if you want to shut down later."
+END
+
+STRINGTABLE
+BEGIN
+    ID_TUTORIAL             "View the tutorial"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (South Africa) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENS)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_SOUTH_AFRICA
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPTION_FILETYPE DIALOGEX 0, 0, 270, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CHILD | WS_CAPTION
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "File Types"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Download file types",IDC_STATIC,6,3,257,120
+    CONTROL         "html,text",IDC_HTMLTEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,17,199,10
+    CONTROL         "Image(jpg,gif,jpeg,bmp,png)",IDC_IMAGES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,31,199,10
+    CONTROL         "zip,rar",IDC_ZIP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,45,199,10
+    CONTROL         "pdf",IDC_PDF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,59,199,10
+    CONTROL         "chm",IDC_CHM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,73,199,10
+    CONTROL         "Audio(mp3,wma,wav),Video(flv,wmv,rm)",IDC_MUSIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,87,199,10
+    CONTROL         "swf",IDC_SWF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,101,199,10
+    PUSHBUTTON      "Advance",IDC_BUTTON_ADVANCE,7,129,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_OPTION_FILETYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 263
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (South Africa) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\tabdoc.rc2"  // ? Microsoft Visual C++ ????
+#include "afxres.rc"         // ????
+#include "afxprint.rc"       // ??/??????
+#include "afxolecl.rc"       // OLE container resources
+#ifndef _AFXDLL
+#include "afxribbon.rc"      // MFC ribbon resources
+#endif
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

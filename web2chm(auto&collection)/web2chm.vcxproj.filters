@@ -1,0 +1,1163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="HttpApi">
+      <UniqueIdentifier>{74bf8cc3-be2f-4f9f-bf25-96694d355613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl">
+      <UniqueIdentifier>{6ebd1403-7069-449b-8830-045ab2a844ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl\source">
+      <UniqueIdentifier>{4d67d75a-efe1-4d1a-b506-8402b1d97ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl\ShellTypes">
+      <UniqueIdentifier>{a8ba6cf9-2f14-48aa-abb9-cf78e687a080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl\EditCtrls">
+      <UniqueIdentifier>{9522a0e5-e77c-4bcd-b83f-95245ffef587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl\lib">
+      <UniqueIdentifier>{1170b4bb-f450-4202-8c4c-f99aeb82c8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HttpApi\UCtrl\include">
+      <UniqueIdentifier>{2272715c-4d0c-4437-b6f8-ad72b092e143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlatBtn">
+      <UniqueIdentifier>{0e3665da-cbc5-4402-8dda-0e761f20593d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{1d5670fc-ce12-4ce7-a1dd-45a0017f147a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DockPane">
+      <UniqueIdentifier>{ca4ed7c6-c5d0-4a92-8c17-bdebd8d90d66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorListWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorPanelWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorsBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorUrlsList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCompletionComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCompletionComboBoxEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CMYControlBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComRun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectTestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConverDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CProgressList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DefnameManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFailureUrls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DockBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownTaskList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementProperSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTypesPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralSheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HitsListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hmCompiler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="htmleditcontrolsite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlParse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperlinkStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IEComCtrlSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JobFileReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LookPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mfcieVw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRUTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDownloadPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewTaskDlg2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnerDrawListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PadFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Particular.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimarySheet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProxyPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReBarEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPathCalculator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shelllink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockwaveFlash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimIEBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimToolBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Splash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tabdoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TabDocTemp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnchorManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnchorPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TAnchorPiece.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskDir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCatalogBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCompilerTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCookieKeeper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TExec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TFileSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TIESinkManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBarEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TParseExec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TStoreManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TWebTask.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UrlEditDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="W2CBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="w2ebook_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkModeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkSpace.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpApi\filepath.cpp">
+      <Filter>HttpApi</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpApi.cpp">
+      <Filter>HttpApi</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSession.cpp">
+      <Filter>HttpApi</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpApi\Utils.cpp">
+      <Filter>HttpApi</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCBType.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCell.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCelTyp.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCnrBtn.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCTarrw.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGCtrl.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGDLType.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGDrgDrp.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGDrwHnt.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGDtaSrc.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGEdit.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGEditBase.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugformat.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\uggdinfo.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGGrid.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGHint.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ughscrol.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugLstBox.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGMEdit.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGMemMan.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGMultiS.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugprint.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugptrlst.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugsidehd.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGStrOp.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugtab.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGTopHdg.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\ugvscrol.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\Source\UGXPThemes.cpp">
+      <Filter>HttpApi\UCtrl\source</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTafnt.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTAutoSize.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTbutn.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTDropGrid.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTdtp.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\ugctelps.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTExpand.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTLabeled.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTMail.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTMailSort.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTMarquee.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTmfnt.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTNote.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\ugctnotewnd.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTOutlookHeader.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTpie.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTpro1.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTprog.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTRado.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTsarw.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTsldr.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\CellTypes\UGCTSpin.cpp">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\EditControls\UTEdit.cpp">
+      <Filter>HttpApi\UCtrl\EditCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="UCtrl\EditControls\UTMaskedEdit.cpp">
+      <Filter>HttpApi\UCtrl\EditCtrls</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatButton\Dib.cpp">
+      <Filter>FlatBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatButton\FlatBitmapButton.cpp">
+      <Filter>FlatBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatButton\FlatButton.cpp">
+      <Filter>FlatBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatButton\VisualStylesXP.cpp">
+      <Filter>FlatBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ButtonXP.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ComboBoxXP.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Draw.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\MenuXP.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\StatusBarXP.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ToolBarXP.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Tools.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\DockPanel.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\Graphics.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\SilibingPanelWnd.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\TabTrack.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\Tools.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+    <ClCompile Include="DockPane\TopTitleBarWnd.cpp">
+      <Filter>DockPane</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HtmlParse.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticInstance.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorListWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorPanelWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorsBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorUrlsList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCompletionComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCompletionComboBoxEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="charset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMYControlBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComRun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectTestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConverDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgressList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DefnameManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFailureUrls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DockBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownTaskList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementProperSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypesPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralSheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HitsListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hmCompiler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HTMLEditControlSite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperlinkStatic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IEComCtrlSink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JobFileReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LookPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRUTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewDownloadPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewTaskDlg2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnerDrawListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PadFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Particular.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimarySheet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProxyPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReBarEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RefPathCalculator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shelllink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockwaveFlash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimIEBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimToolBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Splash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TabBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tabdoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TabDocTemp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnchorManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnchorPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TAnchorPiece.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskDir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCatalogBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCompilerTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCookieKeeper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TExec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TFileSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TIESinkManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBarEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TParseExec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TStoreManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TWebTask.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UrlEditDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="W2CBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="w2ebook_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkModeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkSpace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>HttpApi</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpApi\filepath.h">
+      <Filter>HttpApi</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpApi\HttpApi.h">
+      <Filter>HttpApi</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpApi\Utils.h">
+      <Filter>HttpApi</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTafnt.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTAutoSize.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTbutn.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTDropGrid.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTdtp.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\ugctelps.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTExpand.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTLabeled.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTMail.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTMailSort.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTMarquee.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTmfnt.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTNote.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\ugctnotewnd.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTOutlookHeader.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTpie.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTpro1.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTprog.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTRado.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTsarw.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTsldr.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\CellTypes\UGCTSpin.h">
+      <Filter>HttpApi\UCtrl\ShellTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\EditControls\UTEdit.h">
+      <Filter>HttpApi\UCtrl\EditCtrls</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Lib\Uglibsel.h">
+      <Filter>HttpApi\UCtrl\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UG64Bit.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGCBType.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGCell.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugceltyp.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGCnrBtn.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGCTarrw.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGCtrl.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugdefine.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGDLType.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGDrgDrp.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGDrwHnt.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGDtaSrc.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGEdit.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGEditBase.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugformat.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\uggdinfo.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGGrid.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGHint.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ughscrol.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\uglstbox.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGMEdit.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGMemMan.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGMultiS.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugprint.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugptrlst.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugsidehd.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGStrOp.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugstruct.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugtab.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\UGTopHdg.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugvscrol.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="UCtrl\Include\ugxpthemes.h">
+      <Filter>HttpApi\UCtrl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatButton\Dib.h">
+      <Filter>FlatBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatButton\VisualStylesXP.h">
+      <Filter>FlatBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Draw.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\MenuXP.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\DockPanel.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\Graphics.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\SilibingPanelWnd.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\TabTrack.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\Tools.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+    <ClInclude Include="DockPane\TopTitleBarWnd.h">
+      <Filter>DockPane</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="tabdoc.manifest">
+      <Filter>源文件</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tabdocDoc.ico">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\001_Pause.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\001_Start.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\001_Stop.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\003_Pause.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\003_Start.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\003_Stop.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_left.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_left_sel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_right.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_right_sel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_tile.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bar_tile_sel.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\coldtool.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Copy of Setup.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\delitem.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dot.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EMB-C1A.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\hottoolb.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\imagelist.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Logo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\METALC5B.gif">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\resouce_mgr_tree_imagelist.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\tabdoc.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\tb_Cold2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\tb_hot2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\w2chm.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EMB-C2A.png" />
+    <None Include="MRUTaskDlg.htm" />
+    <None Include="res\Toolbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tabdoc.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="mfcieVw.h">
+      <Filter>头文件</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="FlatButton\FlatBitmapButton.h">
+      <Filter>FlatBtn</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="FlatButton\FlatButton.h">
+      <Filter>FlatBtn</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\ButtonXP.h">
+      <Filter>Tools</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\ComboBoxXP.h">
+      <Filter>Tools</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\StatusBarXP.h">
+      <Filter>Tools</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="Tools\ToolbarXP.h">
+      <Filter>Tools</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>
